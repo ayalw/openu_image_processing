@@ -12,9 +12,8 @@ def swap_red_with_blue(img):
 
 
 assert len(sys.argv) > 1, "Usage: python maman_11_main.py [image file name]"
-input_file = sys.argv[1]
-picture = Image.open(input_file)
-output_img = swap_red_with_blue(picture)
+input_img = Image.open(sys.argv[1])
+output_img = swap_red_with_blue(input_img)
 output_img.show()
 output_img.save("output.png", "PNG")
 
