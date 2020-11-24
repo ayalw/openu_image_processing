@@ -3,11 +3,11 @@
 
 Usage:
 
-python maman_11_2a.py [image file name]
+python maman_11_2b.py [image file name]
 
 example:
 
-python maman_11_2a.py river-5429113_640.jpg
+python maman_11_2b.py amphora-749122_640.jpg
 
 
-Included image by Michael Gaida from Pixabay
+Included image by Sebastiano Rizzardo from Pixabay 
